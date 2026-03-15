@@ -1,0 +1,57 @@
+Bug 1
+Title: Result not cleared
+
+Steps:
+1 Enter name and score
+2 Click Calculate
+3 Click Clear
+
+Expected Result:
+All data should be cleared
+
+Actual Result:
+Result text remains
+
+Bug 2
+Title: Score above 100 accepted
+
+Steps:
+1 Enter score 150
+2 Click Calculate
+
+Expected Result:
+System should show error
+
+Actual Result:
+System shows grade A
+
+Bug 3
+Title: Empty name allowed
+
+Steps:
+1 Leave name empty
+2 Enter score
+3 Click Calculate
+
+Expected Result:
+System should require name
+
+Actual Result:
+Grade appears without name
+
+Bug 4
+Title: Empty input still calculates grade
+
+Steps:
+1 Leave name empty
+2 Leave score empty
+3 Click Calculate Grade
+
+Expected Result:
+System should ask the user to enter name and score
+
+Actual Result:
+System shows " grade is F"
+
+Severity: Medium
+Priority: Medium
